@@ -8,6 +8,9 @@ def circle_area(r):
         raise TypeError('Radius value can only be an integer or float')
 
     return pi*(r**2)
+
+print(circle_area(5))
+
 '''
 radii = [2, -2, True, 2+5j, 'Radius']
 
